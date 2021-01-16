@@ -1,11 +1,12 @@
 import React from 'react';
+import {Heading} from 'grommet'
 
-const Header = () => {
+const MyHeader = () => {
   return(
       <>
-        <header>Office Cake Party</header>
+        <Heading style={{maxWidth: 1500}}>Office Cake Party</Heading>
       </>
   )
 }
 
-export default Header;
+export default MyHeader;

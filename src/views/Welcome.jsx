@@ -1,12 +1,12 @@
 import { render } from '@testing-library/react';
 import React from 'react';
-import Header from './../components/Header'
+import {Button} from 'grommet'
 
 const Welcome = () => {
   return(
       <>
-        <button>Make a Party</button>
-        <button>Join a Party</button>
+        <Button label='Make a Party'/>
+        <Button label='Join a Party'/>
       </>
   )
 }
