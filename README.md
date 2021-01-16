@@ -1,70 +1,33 @@
-# Getting Started with Create React App
+# Office Cake Party
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### By: Keturah Howard, January 2021
 
-## Available Scripts
+## Description
 
-In the project directory, you can run:
+Most of us are remote now! 2020 changed our world to where the majority of us are working from home. Am I the only one missing cake parties?
 
-### `yarn start`
+This is a site dedicated to bringing cake parties to our homes. Join a party that your team is throwing, or make one yourself. Choose the decorations for your party, the cake, and then look at everyones beautiful faces surrounding the cake. After all, its not about the cake. Its about being appreciated and showing appreciation :)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Technologies Used
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- React
+- [React WebCam](https://www.npmjs.com/package/react-webcam)
+- [Grommet](https://v2.grommet.io/)
+- yarn
 
-### `yarn test`
+## Behavior Driven Development
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+| Specification                                                                      | Example Input                                                            | Example Output                                                                         |
+| :--------------------------------------------------------------------------------- | :----------------------------------------------------------------------- | :------------------------------------------------------------------------------------- |
+| User can choose to make a party                                                    | on landing page.. _clicks 'Make a Party'_                                | _taken to form_                                                                        |
+| User can choose party room color                                                   | in form.. _selects a color for room_                                     | _color of form is changed to that same color_                                          |
+| User can choose party's cake                                                       | in form.. _selects cake image from lists of cakes_                       | _that cake is highlighted and will apear in next screen_                               |
+| User can make party banner                                                         | in form.. _text input available to type in: you type "Happy BDAY James!_ | _that text will apear in next screen_                                                  |
+| User submitting form is taken to room and room code is displayed for them to share | in form.. _clicks submit_                                                | _Taken to room- everything is there including room code_                               |
+| Joining a room requires room code                                                  | _clicks 'Join a Party'_                                                  | _propted to input room code_                                                           |
+| Entering room code allows entry of party                                           | _enters room code_                                                       | _taken to decorated page with cake in center, faces of coworkers adn self around cake_ |
+| Room can be deleted by clicking 'end party'                                        | In party's room.. _clicks end party_                                     | _user's taken to landing page_                                                         |
 
-### `yarn build`
+### Liscensing
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+MIT
