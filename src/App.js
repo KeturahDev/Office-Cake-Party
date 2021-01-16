@@ -1,11 +1,14 @@
 import './styles/App.css';
 import {WebcamComponent} from './components/cam'
+import Welcome from './views/Welcome'
+import Header from './components/Header'
 
 function App() {
   return (
     <div className="App">
-      <p>Office Cake Party</p>
-      <WebcamComponent />
+      <Header/>
+      <Welcome />
+      {/* <WebcamComponent /> */}
     </div>
   );
 }
