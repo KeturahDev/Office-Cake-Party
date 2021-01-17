@@ -1,4 +1,4 @@
-# Office Cake Party
+# (Office Cake Party)[https://master.d2bfyql4kzrsrv.amplifyapp.com/]
 
 ### By: Keturah Howard, January 2021
 
@@ -14,6 +14,7 @@ This is a site dedicated to bringing cake parties to our homes. Join a party tha
 - [React WebCam](https://www.npmjs.com/package/react-webcam)
 - [Grommet](https://v2.grommet.io/)
 - yarn
+- AWS amplify
 
 ## Behavior Driven Development
 
